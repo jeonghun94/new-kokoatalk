@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Day-11~12</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="main-content__statusbar">
+          <i class="fas fa-arrow-left"></i> <i class="fas fa-search"></i>
+        </div>
+        <div class="main-content__list">
+          <img
+            class="main-content__list-img"
+            src="https://mblogthumb-phinf.pstatic.net/MjAxODA2MDRfMjA1/MDAxNTI4MDYyOTcxMzUz.T8jWoc3KigvTNTduENRrPiz8upNbgrzpk6GKvPmxYTog.b2FpumMTt4uJrqEg6EBBjtXS5Sf74ixlQw0I6bgmYlEg.JPEG.0528zzag/SmartSelect_20180604-065502_Spotify.jpg?type=w800"
+          />
+        </div>
+
+        <div class="main-content__text">
+          <p class="main-content__title">Never Not</p>
+          <p class="main-content__title">Lauv</p>
+        </div>
+
+        <div class="main-content__info">
+          <div class="main-content__info-btn">Lauv</div>
+          <div class="main-content__info-btn">
+            <i class="fas fa-heart"></i> <span>212 971</span>
+          </div>
+        </div>
+
+        <div class="main-content__song">
+          <div class="main-content__song-list">
+            <img
+              class="main-content__song-list-img"
+              src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/501/552/82501552_1649320094771_1_600x600.JPG"
+            />
+            <div class="main-content__song-list__info">
+              <div class="main-content__song-list__content">
+                <p class="main-content__song-list__content-text">Lauv</p>
+                <p class="main-content__song-list__content-text">Hey Ari</p>
+              </div>
+              <div class="main-content__song-list__content-icon">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-content__song-list">
+            <img
+              class="main-content__song-list-img"
+              src="https://mblogthumb-phinf.pstatic.net/MjAxODA2MDRfMjA1/MDAxNTI4MDYyOTcxMzUz.T8jWoc3KigvTNTduENRrPiz8upNbgrzpk6GKvPmxYTog.b2FpumMTt4uJrqEg6EBBjtXS5Sf74ixlQw0I6bgmYlEg.JPEG.0528zzag/SmartSelect_20180604-065502_Spotify.jpg?type=w800"
+            />
+            <div class="main-content__song-list-play">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="main-content__song-list__info">
+              <div class="main-content__song-list__content">
+                <p class="main-content__song-list__content-text">Lauv</p>
+                <p class="main-content__song-list__content-text">
+                  The Story Never Ends
+                </p>
+              </div>
+              <div class="main-content__song-list__content-icon">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-content__song-list">
+            <img
+              class="main-content__song-list-img"
+              src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/501/552/82501552_1649320094771_1_600x600.JPG"
+            />
+            <div class="main-content__song-list__info">
+              <div class="main-content__song-list__content">
+                <p class="main-content__song-list__content-text">Lauv</p>
+                <p class="main-content__song-list__content-text">
+                  All 4 Nothing (I'm So In Love)
+                </p>
+              </div>
+              <div class="main-content__song-list__content-icon">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-content__song-list">
+            <img
+              class="main-content__song-list-img"
+              src="data:image/jpeg;base64,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"
+            />
+            <div class="main-content__song-list__info">
+              <div class="main-content__song-list__content">
+                <p class="main-content__song-list__content-text">Lauv</p>
+                <p class="main-content__song-list__content-text">Changes</p>
+              </div>
+              <div class="main-content__song-list__content-icon">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content__playbar">
+          <div class="main-content__playbar-text">
+            <p>Lauv</p>
+            <p>Never Not</p>
+          </div>
+          <div class="main-content__playbar-icon">
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-step-forward"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="main-content__statusbar">
+          <i class="fas fa-arrow-left"></i> <i class="fas fa-ellipsis-v"></i>
+        </div>
+
+        <div class="main-content__play">
+          <img
+            src="https://mblogthumb-phinf.pstatic.net/MjAxODA2MDRfMjA1/MDAxNTI4MDYyOTcxMzUz.T8jWoc3KigvTNTduENRrPiz8upNbgrzpk6GKvPmxYTog.b2FpumMTt4uJrqEg6EBBjtXS5Sf74ixlQw0I6bgmYlEg.JPEG.0528zzag/SmartSelect_20180604-065502_Spotify.jpg?type=w800"
+            class="main-content__play-img"
+          />
+        </div>
+
+        <div class="main-content__text">
+          <p class="main-content__title">The Story Never Ends</p>
+          <p class="main-content__title">Lauv</p>
+        </div>
+
+        <div class="main-content__time">
+          <span>1:48</span>
+          <span>3:29</span>
+        </div>
+
+        <div class="main-content__time-range">
+          <input type="range" name="" id="" />
+        </div>
+
+        <div class="main-content__playicon">
+          <i class="fas fa-sync"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-play"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-random"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
